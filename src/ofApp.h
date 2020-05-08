@@ -8,6 +8,7 @@ class ofApp : public ofBaseApp{
 
 private:
 	vector<int> primeNumbersArray;
+	glm::vec2 myPos;
 
 	public:
 		bool isPrimeNumber(int);

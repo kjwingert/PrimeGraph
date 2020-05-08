@@ -7,7 +7,8 @@ using namespace std;
 
 // Set the Window
 void ofApp::setup() {
-    ofBackground(0, 0, 0);
+    ofBackground(0, 0, 0);  
+    glm::vec2 myPos(ofGetWidth() / 2, ofGetHeight() / 2);
 
     // Fill the vector with the prime numbers
     for (int i = 2; i <= 1000; i++) {
@@ -16,7 +17,7 @@ void ofApp::setup() {
     }
 
 }
-
+ 
 bool ofApp::isPrimeNumber(int n) {
     // Check each number to see if they are prime
     int i;
